@@ -1,1 +1,180 @@
 
+/* --- google font --- */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+/*======= start top section =======*/
+
+.top-section {
+    background: rgb(226, 220, 220);
+    margin-bottom: 150px;
+}
+
+.container  {
+    display: flex;
+    height: 85vh;
+}
+
+.container .margin {
+    margin-top: 50px;
+    
+}
+
+span {
+  color: #FF9150;
+}
+
+
+.half-area{
+    width: 50%;
+    padding-left: 8%;
+}
+
+.half-area img {
+    width: 80%;
+}
+
+.half-area h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align:left;
+     margin-bottom: 0;
+     font-weight: 600;
+}
+
+.half-area p {
+    font-size: 15px;
+    widtH : 95%;
+    text-transform: capitalize;
+    line-height: 1.5;
+    color:#ac4516
+}
+
+.half-area a {
+    text-decoration: none;
+     background: linear-gradient(#b3240b,#d46220);
+     padding: 10px 20px;
+     display: block;
+     width: 100px;
+     margin: auto 0;
+     margin-top: 30px;
+     border-radius: 10px;
+     text-align: center;
+     color: white; 
+
+}
+
+
+
+/*======= start middle section =======*/
+
+
+.middle-section {
+    background-image: url(background-img/holodbg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 5%;
+    
+ 
+}
+
+.half-area .img {
+    width: 60%;
+}
+
+.half-area .ptag{
+    width: 60%;
+    text-align: justify;
+}
+
+/*======= start recipies section =======*/
+
+
+.recipies-heading{
+ text-align: center;
+ margin-bottom: 50px;
+}
+
+.recipies-heading h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.recipies-item {
+ 
+  width: 25%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  box-shadow: 2px 2px 4px black;
+  height: 80%;
+  padding-left: 4%;
+  padding-top: 2%;
+  border-radius: 20px;
+
+   
+}
+
+
+.recipies-item img{
+     width: 85%;
+}
+
+.recipies-item p {
+    width: 60%;
+}
+
+
+/*======= start media section =======*/
+
+
+.media-section {
+    width: 70%;
+    margin: auto;
+}
+.media-item{
+    display: flex;
+    margin-bottom: 200px;
+}
+ .item {
+     width: 25%;
+     margin-left: 5%;
+     text-align: center;  
+     margin-top: 100px; 
+
+ }
+ .item h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 700;
+
+ }
+
+ .item p {
+     margin: 0;
+     padding: 0;
+     font-weight: 400;
+     font-size: 15px;
+ }
+
+/*======= start footer section =======*/
+  
+.footer-content {
+     text-align: center;
+     background: black;
+    color: white;
+    padding: 25px 0;
+}
+
+.footer-content p {
+  font-size: 14px;
+  text-transform: capitalize;
+  color:#fdfdfd83;
+}
