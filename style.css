@@ -121,7 +121,7 @@ span {
 .recipies-item {
     width: 28%;
     margin: 0 auto;
-    box-shadow: 2px 2px 4px rgb(155, 145, 145);
+    box-shadow: 2px 2px 4px rgb(218, 203, 203);
     height: 78%;
     padding-left: 1.3%;
     padding-top: 1%;
@@ -158,6 +158,8 @@ span {
     margin-left: 5%;
     text-align: center;
     margin-top: 100px;
+    box-shadow: 2px 4px 8px rgb(235, 227, 227);
+
 }
 
 .item h4 {
@@ -179,7 +181,7 @@ span {
 
 .footer-content {
     text-align: center;
-    background: black;
+    background: #080308f3;
     color: white;
     padding-top: 10px;
     padding-bottom: 50px;
@@ -196,7 +198,7 @@ span {
 
 .social-link {
     text-align: center;
-    background-color: black;
+    background-color:  #080308f3;
 }
 
 .social-link ul {
