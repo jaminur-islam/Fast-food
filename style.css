@@ -39,6 +39,10 @@ span {
 .half-area img {
     width: 80%;
 }
+.half-area #img {
+    margin-top: 15px
+
+}
 
 .half-area h1 {
     font-size: 45px;
