@@ -5,33 +5,33 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    
-
 }
+
+
+
 
 /*======= start top section =======*/
 
 .top-section {
-    background: rgb(226, 220, 220);
+    background: rgb(241, 239, 239);
     margin-bottom: 150px;
 }
 
-.container  {
+.container {
     display: flex;
     height: 85vh;
 }
 
 .container .margin {
     margin-top: 50px;
-    
 }
 
 span {
-  color: #FF9150;
+    color: #FF9150;
 }
 
 
-.half-area{
+.half-area {
     width: 50%;
     padding-left: 8%;
 }
@@ -44,31 +44,31 @@ span {
     font-size: 45px;
     text-transform: uppercase;
     width: 100%;
-    text-align:left;
-     margin-bottom: 0;
-     font-weight: 600;
+    text-align: left;
+    margin-bottom: 0;
+    font-weight: 600;
 }
 
 .half-area p {
-    font-size: 15px;
-    widtH : 95%;
-    text-transform: capitalize;
+    font-size: 14px;
+    widtH: 95%;
+    text-transform: uppercase;
     line-height: 1.5;
-    color:#ac4516
+    color: #ac4516;
+    word-spacing: .4px;
 }
 
 .half-area a {
     text-decoration: none;
-     background: linear-gradient(#b3240b,#d46220);
-     padding: 10px 20px;
-     display: block;
-     width: 100px;
-     margin: auto 0;
-     margin-top: 30px;
-     border-radius: 10px;
-     text-align: center;
-     color: white; 
-
+    background: linear-gradient(#b3240b, #d46220);
+    padding: 10px 20px;
+    display: block;
+    width: 100px;
+    margin: auto 0;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
 }
 
 
@@ -82,26 +82,26 @@ span {
     background-position: top center;
     padding: 5%;
     height: 418px;
-    margin-bottom: 200px;
-    
- 
+    margin-bottom: 150px;
 }
 
 .half-area .img {
-    width: 60%;
+    width: 60%;  
 }
 
-.half-area .ptag{
-    width: 60%;
+.half-area .ptag {
+    width: 80%;
     text-align: justify;
+    color: #ac4516;
+    line-height: 1.8;
 }
 
 /*======= start recipies section =======*/
 
 
-.recipies-heading{
- text-align: center;
- margin-bottom: 50px;
+.recipies-heading {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .recipies-heading h1 {
@@ -109,32 +109,30 @@ span {
     text-transform: uppercase;
     font-weight: 800;
 }
+
 .recipies-heading p {
     color: #583a3a;
 }
 
 .recipies-item {
- 
-  width: 25%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  box-shadow: 2px 2px 4px black;
-  height: 72%;
-  padding-left: 4%;
-  padding-top: 2%;
-  border-radius: 20px;
-
-   
+    width: 28%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 4px rgb(155, 145, 145);
+    height: 78%;
+    padding-left: 1.3%;
+    padding-top: 1%;
+    border-radius: 25px;
 }
 
 
-.recipies-item img{
-     width: 85%;
+.recipies-item img {
+    width: 95%;
 }
 
 .recipies-item p {
     width: 60%;
-    color: #583a3a
+    color: #583a3a;
+    font-size: 15px;
 }
 
 
@@ -145,47 +143,75 @@ span {
     width: 70%;
     margin: auto;
 }
-.media-item{
+
+.media-item {
     display: flex;
     margin-bottom: 200px;
 }
- .item {
-     width: 25%;
-     margin-left: 5%;
-     text-align: center;  
-     margin-top: 100px; 
 
- }
- .item h4 {
+.item {
+    width: 25%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.item h4 {
     margin: 0;
     padding: 0;
     font-size: 40px;
     font-weight: 700;
+}
 
- }
-
- .item p {
-     margin: 0;
-     padding: 0;
-     font-weight: 400;
-     font-size: 15px;
-     color:  #583a3a;
- }
+.item p {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 15px;
+    color: #583a3a;
+}
 
 /*======= start footer section =======*/
-  
+
 .footer-content {
-     text-align: center;
-     background: black;
+    text-align: center;
+    background: black;
     color: white;
-    padding-top:10px;
-    padding-bottom: 70px;
+    padding-top: 10px;
+    padding-bottom: 50px;
     border-radius: 2px 2px 0 0;
-    
 }
 
 .footer-content p {
-  font-size: 14px;
-  text-transform: capitalize;
-  color:#fdfdfd83;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fdfdfd83;
 }
+
+/*======= start extra section =======*/
+
+.social-link {
+    text-align: center;
+    background-color: black;
+}
+
+.social-link ul {
+    margin: 0;
+    padding: 0;
+}
+
+.social-link ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.social-link ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(177, 133, 133);
+}
+
+/*======= end all =======*/
